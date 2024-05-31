@@ -46,7 +46,8 @@ term.on('click', '.command', function () {
 function frustrated() {
   console.log('Frustrated command called'); // Debugging line
   const video = document.createElement('video');
-  video.src = '../media/video/toughTime.mp4';
+  video.src = 'https://github.com/Ashdevelopernewbie/terminalWebsite/blob/main/media/video/toughTime.mp4'
+  video.type = "video/mp4";
   video.autoplay = true;
   video.controls = true;
   video.style.position = 'fixed';
