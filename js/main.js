@@ -11,6 +11,9 @@ const commands = {
     term.echo(args.join(' '));
   },
   frustrated() {
+    term.echo(`Here's some motivation. Dherai code garera alxi `)
+    term.echo(`lagyo hola hai... Break liu xin xin ma ...`)
+    setTimeout(5);
     frustrated();
   },
   github() {
@@ -46,7 +49,7 @@ function frustrated() {
   video.src = '../media/video/Tough Time Never Last.mp4';
   video.autoplay = true;
   video.controls = true;
-  video.style.position = 'center';
+  video.style.position = 'fixed';
   video.style.bottom = '10px';
   video.style.right = '10px';
 
